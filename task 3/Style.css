@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+p,
+ul {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.wrapper {
+  width: 70%;
+  padding: 2em;
+  margin: 2em auto;
+}
+
+.top {
+  padding-bottom: 3em;
+}
+
+.top-1 {
+  padding-bottom: 1em;
+}
+
+.top-header h1,
+.top-header h2 {
+  padding-bottom: 1em;
+}
+
+.wrapper img {
+  margin: 0 auto 10px auto;
+}
+
+.mid,
+.skill,
+.edu {
+  padding-bottom: 3em;
+}
+
+.mid-header,
+.mid-1,
+.mid-2,
+.skill-header,
+.skill-item,
+.edu-header,
+.edu-item {
+  padding-bottom: 1em;
+}
+
+.mid-1 h3,
+.mid-1 p,
+.mid-2 h3,
+.mid-2 p,
+.skill-item h3,
+.skill-item li,
+.edu-item h3,
+.edu-item p,
+.edu-item li {
+  padding-bottom: 0.5em;
+}
+
+.skill-item ul,
+.edu-item ul {
+  padding-left: 2em;
+}
+
+@media screen and (min-width: 992px) {
+  .wrapper {
+    width: 50%;
+  }
+
+  .top {
+    display: flex;
+    justify-content: space-between;
+  }
+  .mid-1,
+  .mid-2 {
+    display: flex;
+    justify-content: space-between;
+  }
+}
